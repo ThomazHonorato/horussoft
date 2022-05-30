@@ -23,7 +23,7 @@ const Forms = () => {
                     <Row>
                         <Col sm={12}><h1 className="title">Consulta de Vendas no período - Simplificado</h1></Col>
                     </Row>
-                    <fieldset>
+                    <fieldset className='fieldsetCliente'>
                         <Row>
                             <Col className="clientBlock" sm={3}>
 
@@ -34,7 +34,7 @@ const Forms = () => {
                             <Col sm={2}></Col>
                         </Row>
                     </fieldset>
-                    <fieldset>
+                    <fieldset className='fieldsetDatas'>
                         <Row>
                             <Col sm={5}></Col>
                             <Col sm={2}>
@@ -74,7 +74,7 @@ const Forms = () => {
 
                         </Row>
                     </fieldset>
-                    <fieldset>
+                    <fieldset className='fieldsetOptions'>
                         <Row>
                             <Col sm={4}>
                                 <div className="orderOptionsBlock">
@@ -122,7 +122,7 @@ const Forms = () => {
                             </Col>
                         </Row>
                     </fieldset>
-                    <fieldset>
+                    <fieldset className='fieldsetTipos'>
                         <Row>
                             <Col sm={5}></Col>
                             <Col sm={2}><h6 className="subTitle">Classificar Por</h6></Col>
@@ -167,7 +167,7 @@ const Forms = () => {
                             </Col>
                         </Row>
                     </fieldset>
-                    <fieldset>
+                    <fieldset className="fieldsetBotao">
                         <Row>
                             <Col sm={12}>
                                 <div className="buttonBlock">

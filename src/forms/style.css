@@ -10,11 +10,36 @@ body {
 fieldset {
     padding: 5px;
     width: 100%;
-    border: 1px solid #000;
-    border-radius: 10px;
+
+
 }
 
+.fieldsetBotao {
+    margin-top: 1px;
+    border: 1px solid #00FFC9;
+    border-radius: 0px 0px 25px 25px;
+}
 
+.fieldsetCliente {
+    border: 1px solid #00FFC9;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.fieldsetDatas {
+    margin-top: 1px;
+    border: 1px solid #00FFC9;
+}
+
+.fieldsetOptions {
+    margin-top: 1px;
+    border: 1px solid #00FFC9;
+}
+
+.fieldsetTipos {
+    margin-top: 1px;
+    border: 1px solid #00FFC9;
+
+}
 
 .mainSection {
     margin-top: 25px;
@@ -39,7 +64,7 @@ fieldset {
     display: flex;
     justify-content: center;
     background-color: #0670E1;
-    border-radius: 25px;
+    border-radius: 10px;
 }
 
 .subTitle {
