@@ -1,5 +1,5 @@
 body {
-    background-color: #3C0887;
+    background-color: #00297F;
     font-weight: bolder;
 }
 
@@ -52,7 +52,7 @@ fieldset {
 .forms {
     box-shadow: 5px 5px 1px 5px;
     border-radius: 25px;
-    background-color: #5E3C8F;
+    background-color: #857db1;
     ;
 }
 
@@ -61,9 +61,10 @@ fieldset {
 }
 
 .title {
+    color: #fff;
     display: flex;
     justify-content: center;
-    background-color: #0670E1;
+    background-color: #873286;
     border-radius: 10px;
 }
 
