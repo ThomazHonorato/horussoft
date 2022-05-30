@@ -1,0 +1,175 @@
+body {
+    background-color: #3C0887;
+    font-weight: bolder;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+fieldset {
+    padding: 5px;
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+
+
+.mainSection {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.forms {
+    box-shadow: 5px 5px 1px 5px;
+    border-radius: 25px;
+    background-color: #5E3C8F;
+    ;
+}
+
+.inputLength {
+    width: 250px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    background-color: #0670E1;
+    border-radius: 25px;
+}
+
+.subTitle {
+    margin-bottom: 30px;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.clientBlock {
+    margin-top: 15px;
+    margin-left: 15px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.clientSection {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    width: 300%;
+
+}
+
+.clientLabel {
+    padding-top: 5px;
+    padding-right: 8px;
+}
+
+
+
+.dataSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10px;
+
+    width: 100%;
+}
+
+.radiosBlock {}
+
+.radioBlock {
+    display: flex;
+    flex-direction: row;
+}
+
+.radioLabel {
+    padding-left: 8px;
+}
+
+.dataInputBlocks {
+    display: flex;
+    flex-direction: row;
+}
+
+.dataInputBlock {
+    margin-left: 15px;
+}
+
+.inputData {
+    width: 105px;
+}
+
+.orderOptionsBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+.orderOption {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+.orderOptionLabel {
+    margin-right: 15px;
+}
+
+.orderTypeBlock {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.orderTypeOption {
+    display: flex;
+    flex-direction: row;
+}
+
+.orderTypeLabel {
+    margin-left: 6px;
+}
+
+.radioOptionsBox {
+    display: flex;
+    flex-direction: column;
+}
+
+.radioOption {
+    display: flex;
+    flex-direction: row;
+}
+
+.radioOptionLabel {
+    margin-left: 6px;
+}
+
+.checkboxOptionsBox {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkboxOption {
+    display: flex;
+    flex-direction: row;
+}
+
+.checkboxOptionLabel {
+    margin-left: 6px;
+}
+
+.buttonBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
